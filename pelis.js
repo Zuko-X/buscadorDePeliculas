@@ -1,0 +1,1 @@
+// Tiene que leer el archivo JSON y exponer funciones para interactuar con los datos.
