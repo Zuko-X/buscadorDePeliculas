@@ -3,7 +3,7 @@
       {
         "title": "Súper Mario Bros. La película",
         "rating": 75,
-        "tags": ["Animación", "Aventura", "Familia", "Fantasía", "Comedia"],
+        "tags": ["animación", "aventura", "familia", "fantasía", "comedia"],
         "year": 2023,
         "runtime": "1h 32m",
         "description": "Mientras trabajan en una avería subterránea, los fontaneros de Brooklyn, Mario y su hermano Luigi, viajan por una misteriosa tubería hasta un nuevo mundo mágico. Pero, cuando los hermanos se separan, Mario deberá emprender una épica misión para encontrar a Luigi."
@@ -11,7 +11,7 @@
       {
         "title": "Avatar: El sentido del agua",
         "rating": "77",
-        "tags": ["Ciencia ficción", "Aventura", "Acción"],
+        "tags": ["ciencia ficción", "aventura", "acción"],
         "year": 2023,
         "runtime": "3h 12m",
         "description": "Ambientada más de una década después de los acontecimientos de la primera película, 'Avatar: The Way of Water' empieza contando la historia de la familia Sully (Jake, Neytiri y sus hijos), los problemas que los persiguen, lo que tienen que hacer para mantenerse a salvo, las batallas que libran para seguir con vida y las tragedias que sufren."
@@ -19,7 +19,7 @@
       {
         "title": "¡Shazam! La furia de los dioses",
         "rating": 69,
-        "tags": ["Acción", "Comedia", "Fantasía"],     
+        "tags": ["acción", "comedia", "fantasía"],     
         "year": 2023,
         "runtime": "2h 10m",
         "description": "Billy Batson y sus hermanos adoptivos, que se transforman en superhéroes al decir \"¡Shazam!\", se ven obligados a volver a la acción y luchar contra las Hijas de Atlas, a quienes deben evitar que use un arma que podría destruir el mundo."
@@ -27,7 +27,7 @@
     {
         "title": "Ant-Man y la Avispa: Quantumanía",
         "rating": 65,
-        "tags": ["Acción", "Aventura", "Ciencia ficción"],      
+        "tags": ["acción", "aventura", "ciencia ficción"],      
         "year": 2023,
         "runtime": "2h 5m",
         "description": "La pareja de superhéroes Scott Lang y Hope van Dyne regresa para continuar sus aventuras como Ant-Man y la Avispa. Los dos, junto a los padres de Hope, Hank Pym y Janet van Dyne y la hija de Scott, Cassie Lang, se dedican a explorar el Mundo Cuántico, interactuando con nuevas y extrañas criaturas y embarcándose en una aventura que les llevará más allá de los límites de lo que creían posible."
@@ -35,7 +35,7 @@
     {
         "title": "Posesión infernal: El despertar",
         "rating": 70,
-        "tags": ["Terror", "Suspense"], 
+        "tags": ["terror", "suspense"], 
         "year": 2023,
         "runtime": "1h 36m",
         "description": "Historia de dos hermanas separadas cuyo reencuentro se ve interrumpido por el surgimiento de demonios poseedores de carne, empujándolos a una batalla por la supervivencia mientras se enfrentan a la versión de familia más aterradora que se pueda imaginar. Secuela de la trilgía original de 'Evil Dead'."
@@ -43,7 +43,7 @@
     {
         "title": "Creed III",
         "rating": 73,
-        "tags": ["Drama", "Acción"],        
+        "tags": ["drama", "acción"],        
         "year": 2023,
         "runtime": "1h 56m",
         "description": "Después de dominar el mundo del boxeo, Adonis Creed ha prosperado tanto en su carrera como en su vida familiar. Cuando un amigo de la infancia y ex prodigio de boxeo, Damien Anderson, resurge después de cumplir una larga sentencia en prisión, está ansioso por demostrar que merece su disparo en el ring. El enfrentamiento entre los antiguos amigos es más que una pelea. Para resolver el puntaje, Adonis debe poner su futuro en la línea para luchar contra Damien, un luchador que no tiene nada que perder."
@@ -51,7 +51,7 @@
     {
         "title": "El Gato con Botas: El último deseo",
         "rating": 83,
-        "tags": ["Animación", "Familia", "Fantasía", "Aventura", "Comedia", "Drama"],        
+        "tags": ["animación", "familia", "fantasía", "aventura", "comedia", "drama"],        
         "year": 2022,
         "runtime": "1h 43m",
         "description": "El Gato con Botas se embarca en un viaje épico para encontrar al mítico Último Deseo y recuperar sus nueve vidas."
@@ -59,7 +59,7 @@
     {
         "title": "John Wick 4",
         "rating": 80,
-        "tags": ["Acción", "Suspense", "Crimen"],        
+        "tags": ["acción", "suspense", "crimen"],        
         "year": 2023,
         "runtime": "2h 50m",
         "description": "John Wick descubre un camino para derrotar a la Alta Mesa. Pero para poder ganar su libertad, Wick deberá enfrentarse a un nuevo rival con poderosas alianzas en todo el mundo, capaz de convertir a viejos amigos en enemigos."
@@ -67,7 +67,7 @@
     {
         "title": "Siete reyes deben morir",
         "rating": 73,
-        "tags": ["Acción", "Aventura", "Historia", "Drama", "Bélica"],        
+        "tags": ["acción", "aventura", "historia", "drama", "bélica"],        
         "year": 2023,
         "runtime": "1h 51m",
         "description": "Tras la muerte del rey Eduardo, Uhtred de Bebbanburg y sus camaradas se aventuran a través de un reino fracturado con la esperanza de unir por fin a Inglaterra."
@@ -75,7 +75,7 @@
     {
         "title": "El viaje de Chihiro",
         "rating": 85,
-        "tags": ["Animación", "Familia", "Fantasía"],        
+        "tags": ["animación", "familia", "fantasía"],        
         "year": 2001,
         "runtime": "2h 2m",
         "description": "Chihiro es una niña de diez años que está mudándose con sus padres a un nuevo hogar. Por el camino, la familia se topa con un enorme edificio rojo en cuyo centro se abre un largo túnel. Al otro lado del pasadizo se dibuja una ciudad fantasma. En el restaurante abandonado de esta ciudad, los padres de Chihiro encuentran una gran variedad de platos deliciosos y deciden quedarse a comer, pero, al probar bocado, se transforman en cerdos. Presa del pánico, Chihiro huye y empieza a desmaterializarse poco a poco. El enigmático Haku le explicará el funcionamiento del universo en el que ha caído. Para salvar a sus padres, la niña tendrá que enfrentarse a la terrible Yubaba, que tiene el aspecto de una arpía diabólica."
@@ -83,7 +83,7 @@
     {
         "title": "Spider-Man: Un nuevo universo",
         "rating": 84,
-        "tags": ["Acción", "Aventura", "Animación", "Ciencia ficción"],        
+        "tags": ["acción", "aventura", "animación", "ciencia ficción"],        
         "year": 2018,
         "runtime": "1h 57m",
         "description": "En un universo paralelo donde Peter Parker ha muerto, un joven de secundaria llamado Miles Morales es el nuevo Spider-Man. Sin embargo, cuando el líder mafioso Wilson Fisk (a.k.a Kingpin) construye el \"Super Colisionador\" trae a una versión alternativa de Peter Parker que tratará de enseñarle a Miles como ser un mejor Spider-Man. Pero no será el único Spider Man en entrar a este universo: 4 versiones alternas de Spider-Man aparecerán y buscarán regresar a su universo antes de que toda la realidad se colapse."
@@ -91,7 +91,7 @@
     {
         "title": "El imperio contraataca",
         "rating": 84,
-        "tags": ["Aventura", "Acción", "Ciencia ficción"],        
+        "tags": ["aventura", "acción", "ciencia ficción"],        
         "year": 1980,
         "runtime": "2h 4m",
         "description": "Tras un ataque sorpresa de las tropas imperiales a las bases camufladas de la alianza rebelde, Luke Skywalker, en compañía de R2D2, parte hacia el planeta Dagobah en busca de Yoda, el último maestro Jedi, para que le enseñe los secretos de la Fuerza. Mientras, Han Solo, la princesa Leia, Chewbacca, y C3PO esquivan a las fuerzas imperiales y piden refugio al antiguo propietario del Halcón Milenario, Lando Calrissian, en la ciudad minera de Bespin, donde les prepara una trampa urdida por Darth Vader."
@@ -99,7 +99,7 @@
     {
         "title": "El señor de los anillos: La comunidad del anillo",
         "rating": 84,
-        "tags": ["Aventura", "Fantasía", "Acción"],        
+        "tags": ["aventura", "fantasía", "acción"],        
         "year": 2001,
         "runtime": "2h 59m",
         "description": "En la Tierra Media, el Señor Oscuro Saurón creó los Grandes Anillos de Poder, forjados por los herreros Elfos. Tres para los reyes Elfos, siete para los Señores Enanos, y nueve para los Hombres Mortales. Secretamente, Saurón también forjó un anillo maestro, el Anillo Único, que contiene en sí el poder para esclavizar a toda la Tierra Media. Con la ayuda de un grupo de amigos y de valientes aliados, Frodo emprende un peligroso viaje con la misión de destruir el Anillo Único. Pero el Señor Oscuro Sauron, quien creara el Anillo, envía a sus servidores para perseguir al grupo. Si Sauron lograra recuperar el Anillo, sería el final de la Tierra Media."
