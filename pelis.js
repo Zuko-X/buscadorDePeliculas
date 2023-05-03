@@ -1,7 +1,7 @@
 const fs = require("fs");
 const { get } = require("http");
 const lista = fs.readFileSync(__dirname + "/pelis.json")
-
+const listaPelis = JSON.parse(lista);
 // Tiene que leer el archivo JSON y exponer funciones para interactuar con los datos.
 // fetch("./pelis.json")
 // .then(res => res.json())
@@ -9,8 +9,12 @@ const lista = fs.readFileSync(__dirname + "/pelis.json")
 // const lista = JSON.parse(lista)
 
 exports.getAll = () => {
-    const todasLasPelis = lista.peliculas
-    return todasLasPelis;
+    let titulos = [];
+    const peliculas = listaPelis.peliculas
+    for (let i = 0; i < peliculas.length; i++) {
+        titulos.push(listaPelis.peliculas[i].title)
+    }
+    return titulos;
 }
 
 
@@ -49,4 +53,3 @@ exports.searchByTag = (tag) => {
     return peliculasAnimacion
 }
 
-console.log(this.getAll())
