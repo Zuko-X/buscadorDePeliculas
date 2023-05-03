@@ -3,55 +3,31 @@ const { parse } = require("path");
 const pelis = require("./pelis")
 
 function parsearTerminos(texto) {
-    if (texto == String) {
-        console.log("es string")
+    if (typeof texto === "string" && texto.trim() !== "") {
+        const textoParseado = texto.toLowerCase();
+        return textoParseado;
     } else {
-        console.log("no es")        
-    }
-
-
-    const minusculas = texto.toLowerCase();
-    return minusculas;
-}
-const nono = (texto) => {
-    let args = texto
-    const largo = args.length;
-    for (let i = 0; i < largo; i += 2) {
-        if (i + 1 >= largo) {
-            break;
-        }
-        const name = args[i].replace(/^--/, "");
-        const value = args[i + 1];
-        switch (name) {
-            case "sort":
-                // pelis.sort(value);
-                console.log("si")
-                break;
-            case "search":
-                pelis.search(value);
-                break;
-            case "tag":
-                pelis.tag(value);
-                break;
-            default:
-                pelis.getAll();
-        }
+        return texto;
     }
 }
 
 const takeArguments = (texto) => {
-    args = texto.replace(/^--/, "");
+    texto = texto === undefined ? texto = "" : texto;
+    const args = texto.replace(/^--/, "");
     if (args === "sort") {
         console.log("Es sort");
+        return pelis.sort();
     } 
     else if (args === "search") {
         console.log("Es search");
+        return pelis.search();
     }
     else if (args === "tag") {
         console.log("Es tag");
+        return pelis.searchByTag();
     }
     else if (args === "") {
-        console.table(pelis.getAll())
+        return pelis.getAll();
     }
     else {
         console.error(`El argumento "${args}" no es válido`);
@@ -60,8 +36,7 @@ const takeArguments = (texto) => {
 }
 
 function main() {
-    // terminosParseados = parsearTerminos(process.argv[2])
-    // console.table(takeArguments(terminosParseados))
-    takeArguments(parsearTerminos(process.argv[2]))
+    console.table(takeArguments(parsearTerminos(process.argv[2])))
 }
+
 main()
