@@ -9,28 +9,25 @@ const listaPelis = JSON.parse(lista);
 // const lista = JSON.parse(lista)
 
 exports.getAll = () => {
-    let titulos = [];
+    let lista = [];
     const peliculas = listaPelis.peliculas
     for (let i = 0; i < peliculas.length; i++) {
-        titulos.push(listaPelis.peliculas[i].title)
+        lista.push(listaPelis.peliculas[i])
     }
-    return titulos;
-}
-
-
-
-exports.buscadorDePelis = () => {
-    
+    return lista;
 }
 
 exports.sort = () => {
   
 }
 
+//Tengo que darle el titulo de la peli y entregarme los resultados similares
 exports.search = () => {
   
 }
 
+
+// Buscar una solucion
 exports.searchByTag = (tag) => {
     for (let i = 0; i < lista.peliculas.length; i++) {
         const tags = lista.peliculas[i].tags;
