@@ -15,28 +15,31 @@ const takeArguments = (texto) => {
     texto = texto === undefined ? texto = "" : texto;
     const args = texto.replace(/^--/, "");
     if (args === "sort") {
-        console.log("Es sort");
-        return pelis.sort();
+        return pelis.sort(process.argv[3]);
     } 
     else if (args === "search") {
-        console.log("Es search");
-        return pelis.search();
+        return pelis.search(process.argv[3]);
     }
     else if (args === "tag") {
-        console.log("Es tag");
-        return pelis.searchByTag();
+        return pelis.searchByTag(process.argv[3]);
     }
     else if (args === "") {
         return pelis.getAll();
     }
     else {
         console.error(`El argumento "${args}" no es válido`);
-        process.exit(1);
+        return null;
     }
 }
 
 function main() {
-    console.table(takeArguments(parsearTerminos(process.argv[2])))
+    const element = takeArguments(parsearTerminos(process.argv[2]));
+    if (element === null) {
+        return;
+    }
+    else {
+    console.table(element);
+    }
 }
 
 main()
