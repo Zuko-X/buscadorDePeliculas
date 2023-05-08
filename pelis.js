@@ -74,29 +74,13 @@ exports.search = (texto) => {
 // Hay una forma de hacerlo sin switch, solo con .includes que lo hace mas corto el código
 exports.searchByTag = (tag) => {
     let lista = [];
-    for (let i = 0; i < listaPelis.peliculas.length; i++) {
-        const tags = listaPelis.peliculas[i].tags;
-
-        switch (tag) {
-            case "animación":
-                if (tags.includes("animación")) {
-                    lista.push(listaPelis.peliculas[i]);
-                }
-                break;
-            case "aventura":
-                if (tags.includes("aventura")) {
-                    lista.push(listaPelis.peliculas[i]);
-                }
-                break;
-            case "familia":
-                if (tags.includes("familia")) {
-                    lista.push(listaPelis.peliculas[i]);
-                }
-                break;
-            default:
-                break;
-        }
-    }
-    return lista;
+    const peliculas = listaPelis.peliculas;
+    if (tag === undefined) {
+        console.error("Error. Se esperaba un error.")
+        return null;
+    } else {
+        lista = peliculas.filter((p) => p.tags.includes(tag.toLowerCase()));
+        return lista;
+    };  
 }
 
