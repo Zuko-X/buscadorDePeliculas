@@ -59,7 +59,6 @@ exports.sort = (texto) => {
 //Tengo que darle el titulo de la peli y entregarme los resultados similares
 exports.search = (texto) => {
     const peliculas = listaPelis.peliculas;
-    const peliculasMinuscula = peliculas.toLowerCase;
     if (texto === undefined) {
         console.error("Error. Se esperaba algun valor.");
         return null;
@@ -77,6 +76,7 @@ exports.searchByTag = (tag) => {
     let lista = [];
     for (let i = 0; i < listaPelis.peliculas.length; i++) {
         const tags = listaPelis.peliculas[i].tags;
+
         switch (tag) {
             case "animación":
                 if (tags.includes("animación")) {
