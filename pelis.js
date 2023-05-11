@@ -2,11 +2,6 @@ const fs = require("fs");
 const { get } = require("http");
 const lista = fs.readFileSync(__dirname + "/pelis.json")
 const listaPelis = JSON.parse(lista);
-// Tiene que leer el archivo JSON y exponer funciones para interactuar con los datos.
-// fetch("./pelis.json")
-// .then(res => res.json())
-// .then(lista => console.log(lista))
-// const lista = JSON.parse(lista)
 
 exports.getAll = () => {
     const lista = [];
@@ -26,7 +21,7 @@ exports.sort = (texto) => {
         }
         lista.sort();
     }
-    else if (texto === "rating") { //no me muestra correctamente ordenado por rating
+    else if (texto === "rating") {
         lista = peliculas.map((p) => ({ title: p.title, rating: p.rating })); // crea un array de objetos con título y rating
         lista.sort((a, b) => b.rating - a.rating); // ordena de mayor a menor según el rating
         listaFix = lista.map((p) => ({title: p.title, rating: p.rating.toFixed(0) + "%"}))
@@ -36,7 +31,7 @@ exports.sort = (texto) => {
         lista = peliculas.map((p) => ({ title: p.title, year: p.year }));
         lista.sort((a, b) => b.year - a.year);
     }
-    else if (texto === "runtime") { //No me muestra correctamente ordenado por runtime
+    else if (texto === "runtime") { 
         const listaOrdenada = peliculas.map((p) => {
             const duracion = p.runtime;
             const partes = duracion.split(" "); // divide el string en dos partes: "1h" y "32m"
@@ -69,9 +64,6 @@ exports.search = (texto) => {
     }
 }
 
-
-// Arreglar y completar
-// Hay una forma de hacerlo sin switch, solo con .includes que lo hace mas corto el código
 exports.searchByTag = (tag) => {
     let lista = [];
     const peliculas = listaPelis.peliculas;
@@ -83,4 +75,3 @@ exports.searchByTag = (tag) => {
         return lista;
     };  
 }
-
