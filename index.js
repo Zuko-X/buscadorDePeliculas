@@ -23,11 +23,17 @@ const takeArguments = (texto) => {
     else if (args === "tag") {
         return pelis.searchByTag(process.argv[3]);
     }
+    else if (args === "help") {
+        console.log("--sort")
+        console.log("--search")
+        console.log("--tag")
+        return null;
+    }
     else if (args === "") {
         return pelis.getAll();
     }
     else {
-        console.error(`El argumento "${args}" no es válido`);
+        console.error(`El argumento "${args}" no es válido.`);
         return null;
     }
 }
