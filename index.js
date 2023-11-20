@@ -1,18 +1,7 @@
 //Recibe argumentos, los procesa y delega las acciones a pelis.js.
 const pelis = require("./pelis");
 
-function parsearTerminos(texto) {
-	if (typeof texto === "string" && texto.trim() !== "") {
-		const textoParseado = texto.toLowerCase();
-		return textoParseado;
-	} else {
-		return texto;
-	}
-}
-
-const takeArguments = (texto) => {
-	texto = texto === undefined ? (texto = "") : texto;
-	const args = texto.replace(/^--/, "");
+const takeArguments = (args) => {
 	if (args === "sort") {
 		return pelis.sort(process.argv[3]);
 	} else if (args === "search") {
@@ -33,7 +22,8 @@ const takeArguments = (texto) => {
 };
 
 function main() {
-	const element = takeArguments(parsearTerminos(process.argv[2]));
+	const arg = process.argv[2] ? process.argv[2].replace(/^--/, "") : "";
+	const element = takeArguments(arg);
 	if (element === null) {
 		return;
 	} else {
