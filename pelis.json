@@ -5,210 +5,210 @@
         "rating": 75,
         "tags": ["animación", "aventura", "familia", "fantasía", "comedia"],
         "year": 2023,
-        "runtime": "1h 32m"
+        "runtime": 92
       },
       {
         "title": "Avatar: El sentido del agua",
         "rating": 77,
         "tags": ["ciencia ficción", "aventura", "acción"],
         "year": 2022,
-        "runtime": "3h 12m"
+        "runtime": 192
       },
       {
         "title": "¡Shazam! La furia de los dioses",
         "rating": 69,
         "tags": ["acción", "comedia", "fantasía"],     
         "year": 2023,
-        "runtime": "2h 10m"
+        "runtime": 130
       },
     {
         "title": "Ant-Man y la Avispa: Quantumanía",
         "rating": 65,
         "tags": ["acción", "aventura", "ciencia ficción"],      
         "year": 2023,
-        "runtime": "2h 5m"
+        "runtime": 125
     },
     {
         "title": "Posesión infernal: El despertar",
         "rating": 70,
         "tags": ["terror", "suspenso"], 
         "year": 2023,
-        "runtime": "1h 36m"
+        "runtime": 96
     },
     {
         "title": "Creed III",
         "rating": 73,
         "tags": ["drama", "acción"],        
         "year": 2023,
-        "runtime": "1h 56m"
+        "runtime": 116
     },
     {
         "title": "El Gato con Botas: El último deseo",
         "rating": 83,
         "tags": ["animación", "familia", "fantasía", "aventura", "comedia", "drama"],        
         "year": 2022,
-        "runtime": "1h 43m"
+        "runtime": 103
     },
     {
         "title": "John Wick 4",
         "rating": 80,
         "tags": ["acción", "suspense", "crimen"],        
         "year": 2023,
-        "runtime": "2h 50m"
+        "runtime": 170
     },
     {
         "title": "Siete reyes deben morir",
         "rating": 73,
         "tags": ["acción", "aventura", "historia", "drama", "bélica"],        
         "year": 2023,
-        "runtime": "1h 51m"
+        "runtime": 111
     },
     {
         "title": "El viaje de Chihiro",
         "rating": 85,
         "tags": ["animación", "familia", "fantasía"],        
         "year": 2001,
-        "runtime": "2h 2m"
+        "runtime": 122
     },
     {
         "title": "Spider-Man: Un nuevo universo",
         "rating": 84,
         "tags": ["acción", "aventura", "animación", "ciencia ficción"],        
         "year": 2018,
-        "runtime": "1h 57m"
+        "runtime": 117
     },
     {
         "title": "El imperio contraataca",
         "rating": 84,
         "tags": ["aventura", "acción", "ciencia ficción"],        
         "year": 1980,
-        "runtime": "2h 4m"
+        "runtime": 124
     },
     {
         "title": "El señor de los anillos: La comunidad del anillo",
         "rating": 84,
         "tags": ["aventura", "fantasía", "acción"],        
         "year": 2001,
-        "runtime": "2h 59m"
+        "runtime": 179
     },
     {
         "title": "Harry Potter y la piedra filosofal",
         "rating": 79,
         "tags": ["aventura", "fantasía"],
         "year": 2001,
-        "runtime": "2h 32m"
+        "runtime": 152
     },
     {
         "title": "Harry Potter y el prisionero de Azkaban",
         "rating": 80,
         "tags": ["aventura", "fantasía"],
         "year": 2004,
-        "runtime": "2h 22m"
+        "runtime": 142
     },
     {
         "title": "Demon Slayer: Mugen Train La Película",
         "rating": 83,
         "tags": ["animación", "acción", "aventura", "fantasía", "suspenso"],
         "year": 2020,
-        "runtime": "1h 57m"
+        "runtime": 117
     },
     {
         "title": "Luck",
         "rating": 79,
         "tags": ["animación", "aventura", "comedia", "fantasía"],
         "year": 2022,
-        "runtime": "1h 45m"
+        "runtime": 105
     },
     {
         "title": "Batman",
         "rating": 77,
         "tags": ["crimen", "misterio", "suspenso"],
         "year": 2022,
-        "runtime": "2h 55m"
+        "runtime": 175
     },
     {
         "title": "Shrek",
         "rating": 77,
         "tags": ["animación", "comedia", "fantasía", "aventura", "familia"],
         "year": 2001,
-        "runtime": "1h 30m"
+        "runtime": 90
     },
     {
         "title": "Scream: Grita antes de morir",
         "rating": 74,
         "tags": ["crimen", "terror", "misterio"],
         "year": 1996,
-        "runtime": "1h 52m"
+        "runtime": 112
     },
     {
         "title": "Monster, Inc.",
         "rating": 78,
         "tags": ["animación", "comedia", "familia"],
         "year": 2001,
-        "runtime": "1h 32m"
+        "runtime": 92
     },
     {
         "title": "Ratatouille",
         "rating": 78,
         "tags": ["animación", "comedia", "familia", "fantasía"],
         "year": 2007,
-        "runtime": "1h 50m"
+        "runtime": 110
     },
     {
         "title": "Tetris",
         "rating": 78,
         "tags": ["suspenso", "historia", "drama"],
         "year": 2023,
-        "runtime": "1h 57m"
+        "runtime": 117
     },
     {
         "title": "Big Hero 6",
         "rating": 77,
         "tags": ["aventura", "acción", "comedia", "animación", "familia"],
         "year": 2014,
-        "runtime": "1h 42m"
+        "runtime": 102
     },
     {
         "title": "El increíble castillo vagabundo",
         "rating": 84,
         "tags": ["fantasía", "animación", "aventura"],
         "year": 2004,
-        "runtime": "2h 0m"
+        "runtime": 120
     },
     {
         "title": "Dune",
         "rating": 78,
         "tags": ["ciencia ficción", "aventura"],
         "year": 2021,
-        "runtime": "2h 21m"
+        "runtime": 141
     },
     {
         "title": "The Avengers: Los Vengadores",
         "rating": 77,
         "tags": ["ciencia ficción", "aventura", "acción"],
         "year": 2012,
-        "runtime": "2h 23m"
+        "runtime": 143
     },
     {
         "title": "Your Name",
         "rating": 85,
         "tags": ["romance", "animación", "drama"],
         "year": 2016,
-        "runtime": "1h 47m"
+        "runtime": 107
     },
     {
         "title": "Ponyo y el secreto de la sirenita",
         "rating": 77,
         "tags": ["animación", "fantasía", "familia"],
         "year": 2008,
-        "runtime": "1h 43m"
+        "runtime": 153
     },
     {
         "title": "Crepúsculo",
         "rating": 63,
         "tags": ["fantasía", "drama", "romance"],
         "year": 2008,
-        "runtime": "2h 2m"
+        "runtime": 122
     }   
 ]
 }
