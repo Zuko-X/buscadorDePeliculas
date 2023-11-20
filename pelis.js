@@ -3,11 +3,7 @@ const lista = fs.readFileSync(__dirname + "/pelis.json");
 const listaPelis = JSON.parse(lista);
 
 exports.getAll = () => {
-	const lista = [];
 	const peliculas = listaPelis.peliculas;
-	for (let i = 0; i < peliculas.length; i++) {
-		lista.push(listaPelis.peliculas[i]);
-	}
 	return peliculas;
 };
 
@@ -30,23 +26,11 @@ exports.sort = (texto) => {
 	} else if (texto === "year") {
 		lista = peliculas.map((p) => ({ title: p.title, year: p.year }));
 		lista.sort((a, b) => b.year - a.year);
+		return lista;
 	} else if (texto === "runtime") {
-		const listaOrdenada = peliculas.map((p) => {
-			const duracion = p.runtime;
-			const partes = duracion.split(" "); // divide el string en dos partes: "1h" y "32m"
-			const horas = parseInt(partes[0]); // extrae el número de horas y conviértelo en un entero
-			const minutos = parseInt(partes[1]); // extrae el número de minutos y conviértelo en un entero
-			const minutosTotales = horas * 60 + minutos; // calcula el total de minutos
-			return { title: p.title, minutosTotales: minutosTotales };
-		}); // crea una lista de objetos que incluye el título de la película y la duración total en minutos
-		listaOrdenada.sort((a, b) => a.minutosTotales - b.minutosTotales); // ordena la lista según la duración total en minutos
-		const listaFix = listaOrdenada.map((p) => ({
-			title: p.title,
-			runtime: `${Math.floor(p.minutosTotales / 60)}h ${
-				p.minutosTotales % 60
-			}m`,
-		})); // crea una lista de objetos que incluye el título de la película y la duración en formato "Xh Ym"
-		return listaFix;
+		lista = peliculas.map((p) => ({ title: p.title, runtime: p.runtime }));
+		lista.sort((a, b) => b.runtime - a.runtime);
+		return lista;
 	} else {
 		console.error(
 			`Valor "${texto}" es invalido. Por favor ingresar title, rating, year, runtime.`
@@ -75,7 +59,7 @@ exports.searchByTag = (tag) => {
 	let lista = [];
 	const peliculas = listaPelis.peliculas;
 	if (tag === undefined) {
-		console.error("Error. Se esperaba un error.");
+		console.error("Error. Se esperaba un tag.");
 		return null;
 	} else {
 		lista = peliculas.filter((p) => p.tags.includes(tag.toLowerCase()));
